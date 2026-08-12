@@ -101,6 +101,7 @@
   .header-inner { height: 72px; }
   .logo-text { font-size: 14px; }
 
+  .hero { padding: 20px 0 32px; }
   .hero-copy h1 { font-size: 30px; }
   .hero-image-card video { height: 300px; }
   .floating-badge { width: 76px; height: 76px; }
