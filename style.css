@@ -696,7 +696,7 @@ input, select { font-family: inherit; font-size: 15px; }
 .cta-split-copy p { color: rgba(255,255,255,0.7); font-size: 14.5px; max-width: 420px; }
 .cta-split-actions { display: flex; gap: 14px; flex-shrink: 0; }
 
-/* ============ CONTACT SPLIT (Contact page — form + quick facts) ============ */
+/* ============ CONTACT SPLIT (Contact page — form + quick facts) =========== */
 .contact-split {
   display: grid; grid-template-columns: 1.1fr 0.9fr;
   background: var(--text-light); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-soft);
