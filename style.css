@@ -28,6 +28,57 @@
   --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
+/* ---------- Scroll To Top Button ---------- */
+#scrollTopBtn{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 998;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+    background: var(--accent);
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: 0.3s ease;
+  border: 1px transparent solid;
+}
+#scrollTopBtn.show{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#scrollTopBtn:hover{
+    background: none;
+  color: var(--accent);
+  transform: translateY(-4px);
+  border: 1px var(--accent) solid;;
+}
+
+#scrollTopBtn:active{
+    background: none;
+  color: var(--accent);
+  transform: translateY(-4px);
+  border: 1px var(--accent) solid;;
+}
+
+#scrollTopBtn .arrow-up{
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid currentColor;
+  border-top: 2px solid currentColor;
+  transform: rotate(45deg) translate(1px, 1px);
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
