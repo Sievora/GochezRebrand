@@ -75,7 +75,9 @@
   .section-heading.with-action { flex-direction: column; align-items: flex-start; gap: 16px; }
 
   .stats-grid { grid-template-columns: 1fr; gap: 28px; }
-
+  .operations-section {
+    margin-bottom: 30px;
+  }
   .services-grid { grid-template-columns: 1fr; }
   .operations-grid { grid-template-columns: 1fr; }
 
